@@ -20,7 +20,7 @@ console.log(cells.length);
 // makes a big difference if the cells length is even or odd
 function setup() {
   createCanvas(710, windowHeight);
-  background(255);
+  background(255,255,0);
   for (let i=0; i < width/cellw; i++){
   cells[i] = 0; //floor(random(2)); // or random
   }
@@ -53,7 +53,7 @@ function displayCells(generation) {
   for (let i = 0; i < cells.length; i++) {
     if (cells[i] == 0) {
       //console.log("white");
-      fill(255);
+      fill(255,255,0);
     } else {
       fill(0);
       //console.log("black");
