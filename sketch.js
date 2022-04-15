@@ -19,7 +19,7 @@ let cellw = 10; // cell size
 console.log(cells.length);
 // makes a big difference if the cells length is even or odd
 function setup() {
-  createCanvas(710, windowHeight);
+  createCanvas(510, windowHeight);
   background(255,255,0);
   for (let i=0; i < width/cellw; i++){
   cells[i] = 0; //floor(random(2)); // or random
