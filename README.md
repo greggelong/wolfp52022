@@ -15,3 +15,5 @@ the overlaps are affected by size of the canvas and screen and wether or not the
 my favorite overlap for rule 90 is a 51 cell row length
 
 it produces something like a generative landscape 
+
+https://greggelong.github.io/wolfp52022
