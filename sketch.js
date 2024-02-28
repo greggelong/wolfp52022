@@ -32,7 +32,7 @@ function setup() {
 
 function draw() {
   displayCells(generation);
-  if (mouseIsPressed) {
+  //if (mouseIsPressed) {
     getNextGen();
     generation++;
     console.log(generation);
@@ -42,7 +42,7 @@ function draw() {
       generation=0;
     }
     
-  }
+ // }
 
 }
 
